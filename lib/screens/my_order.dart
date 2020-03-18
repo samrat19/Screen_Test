@@ -10,6 +10,7 @@ class MyOrders extends StatefulWidget {
 
 class _MyOrdersState extends State<MyOrders>
     with SingleTickerProviderStateMixin {
+
   TabController _pageController;
 
   @override
@@ -53,7 +54,7 @@ class _MyOrdersState extends State<MyOrders>
                       "Ongoing",
                       style: Theme.of(context).textTheme.display1.copyWith(
                             fontSize: MediaQuery.of(context).size.width / 22,
-                          ),
+                      ),
                     ),
                   ),
                   Tab(
